@@ -388,3 +388,14 @@ Isso mostra que o comportamento de gasto dos clientes não depende apenas de nú
 em quantas vezes, quanto tempo esperam pela entrega e o tipo de produto comprado.
 
 O modelo ainda pode melhorar, mas já está em um modelo para análise de negócio.
+
+
+
+_________________________________________________________________________________________________________________________________________
+
+📚 Resumo Geral
+
+
+🗳️ Esta é uma análise abrangente dos dados da Olist. Primeiramente, os dados foram carregados, explorados e limpos. Em seguida, foi feita uma análise exploratória para entender a distribuição de clientes por estado e cidade, receita por estado, ticket médio e frequência de compras.
+
+Depois, foi desenvolvido um modelo de Machine Learning (RandomForestRegressor) para prever o valor gasto pelos clientes. A primeira versão do modelo, usando número de pedidos, itens e estado do cliente, obteve um R² de aproximadamente 0.23. Ao expandir as features com tipo de pagamento, número de parcelas, tempo médio de entrega e categoria principal do produto, o modelo melhorou significativamente, alcançando um R² de aproximadamente 0.41. Essa melhoria destaca a importância das novas variáveis para entender o comportamento de gastos dos clientes.
